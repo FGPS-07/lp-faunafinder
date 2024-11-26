@@ -1,0 +1,426 @@
+/* CABECALHO */
+
+.logo .imagem {
+  width: 150px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10%;
+  min-width: 100%;
+  margin: 0;
+  flex-wrap: wrap;
+  background-color: #323c35;
+  color: #e9e9e9;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.logo .nome {
+  margin-left: 7px;
+  font-size: 17px;
+  transition: 0, 3s ease-in-out;
+  font-weight: 800;
+}
+
+.logo .nome:hover {
+  color: #1f3627bf;
+}
+
+.cabecalho .navegacao .menu {
+  display: flex;
+}
+
+.cabecalho .navegacao .menu .item {
+  margin: 10px;
+}
+.cabecalho .navegacao .menu .item a {
+  padding: 15px;
+  transition: 0.4s ease-in-out;
+  color: #e9e9e9;
+}
+
+.cabecalho .navegacao .menu .item a:hover {
+  background-color: #1a2a25;
+  color: #fff;
+}
+
+.cabecalho .navegacao .btn-mobile {
+  display: none;
+}
+/* CABECALHO */
+
+/* PAINEIS */
+
+.conteudo-principal .paineis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  position: relative;
+}
+
+.conteudo-principal .paineis .imagem-painel {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(50%);
+  opacity: 0;
+}
+
+.conteudo-principal .paineis .imagem-painel.mostrar {
+  opacity: 1;
+}
+
+.conteudo-principal .paineis .projeto1 {
+  background-image: url("../img/imagem1.jpeg");
+}
+
+.conteudo-principal .paineis .projeto2 {
+  background-image: url("../img/WhatsApp\ Image\ 2024-11-26\ at\ 07.57.51.jpeg");
+}
+
+.conteudo-principal .paineis .projeto3 {
+  background-image: url("../img/WhatsApp\ Image\ 2024-11-26\ at\ 07.57.52\ \(1\).jpeg");
+}
+
+.conteudo-principal .paineis .titulo {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: calc(1em + 1vw);
+}
+
+.conteudo-principal .paineis .seta {
+  background-image: url("..//img/seta.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  text-indent: 100%;
+  overflow: hidden;
+  display: none;
+}
+
+.conteudo-principal .paineis .seta.btn-voltar {
+  left: 20px;
+  transform: rotateY(180deg);
+}
+.conteudo-principal .paineis .seta.btn-avancar {
+  right: 20px;
+}
+/* PAINEIS  */
+
+/* QUEM  SOMOS */
+.quem-somos {
+  background-color: #9a9e80;
+  display: flex;
+
+}
+
+.quem-somos .conteudo {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  padding: 0 10%;
+  gap: 100px;
+
+}
+
+.quem-somos .conteudo .informacoes {
+  text-align: justify;
+  width: 50%;
+  /* text-align: center; */
+}
+
+.quem-somos .conteudo .assinatura {
+  color: #323c35;
+  text-align: center;
+}
+
+.quem-somos .conteudo .imagem-quem-somos {
+  width: 45%;
+}
+
+.quem-somos .conteudo .informacoes .titulo {
+  font-size: 50px;
+  line-height: 1.4;
+  color: #ffffff;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  position: relative;
+}
+.quem-somos .conteudo .informacoes .texto {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #ffffff;
+  font-weight: 400;
+  /* font-size: larger; */
+}
+
+/* FAUNAFINDER */
+
+.faunafinder {
+  background-color: #c4c8ac;
+  display: flex;
+
+}
+
+.faunafinder .conteudo-faunafinder {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between;  */
+  gap: 100px;
+  /* padding: 0 10%; */
+  justify-content: center;
+}
+
+.faunafinder .conteudo-faunafinder .informacoes-faunafinder {
+  text-align: justify;
+  width: 60%;
+  /* text-align: center; */
+}
+
+.faunafinder .conteudo-faunafinder .imagem-faunafinder {
+  width: 45%;
+}
+
+h2.titulo-faunafinder {
+  align-items: baseline;
+}
+
+.faunafinder
+  .conteudo-faunafinder
+  .informacoes-faunafinder
+  .titulo-faunafinder {
+  font-size: 50px;
+  line-height: 1.4;
+  color: #323c35;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #323c35;
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+}
+.faunafinder .conteudo-faunafinder .informacoes-faunafinder .texto-faunafinder {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #323c35;
+  font-weight: 400;
+}
+
+/* FAUNAFINDER */
+
+/*CONTATO*/
+.contato {
+  background-color: #c4c8ac;
+}
+
+.contato .conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  gap: 100px;
+}
+
+.contato .conteudo .map {
+  width: 50%;
+  height: 458px;
+}
+
+.contato .conteudo .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contato .conteudo .container-form {
+  width: 500px;
+  background-color: #323c35;
+  border-radius: 14px;
+  margin: 14px;
+  overflow: hidden;
+}
+
+.contato .container-form .titulo {
+  background: linear-gradient(120deg, #beceab 0%, #000 100%);
+  padding: 24px;
+  text-align: center;
+  color: #e9e9e9;
+}
+
+.contato .conteudo .form {
+  padding: 18px;
+  width: 300px;
+}
+
+.contato .conteudo .campo-form {
+  margin-bottom: 8px;
+  padding-bottom: 18px;
+  position: relative;
+}
+
+.contato .conteudo .campo-form label {
+  display: inline-block;
+  margin-bottom: 4px;
+  color: #dfdfdf;
+}
+
+.contato .conteudo .campo-form input {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  padding: 8px;
+  border: 2px solid #dfdfdf;
+}
+
+.contato .conteudo .campo-form a {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  visibility: hidden;
+}
+
+.contato .conteudo button {
+  background: linear-gradient(120deg, #beceab 0%, #000 100%);
+  color: #fff;
+  width: 100%;
+  border-radius: 14px;
+  padding: 10px;
+  border: 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+.contato .conteudo .campo-form.error input {
+  border-color: #ff0000;
+}
+
+.contato .conteudo .campo-form.error a {
+  color: #ff0000;
+  visibility: visible;
+}
+
+/* RODAPÉ */
+.rodape {
+  padding: 80px 0 20px 0;
+  background-color: #323c35;
+}
+.rodape .navegacao {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rodape .redes-sociais {
+  display: flex;
+}
+
+.rodape .rede-social {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+  font-size: 30px;
+  border: 0px solid;
+  border-radius: 100%;
+  /* border-style ; */
+  padding: 10px;
+  width: 50px;
+  transition: 0.4 ease-in-out;
+  background-color: transparent;
+  height: 50%;
+}
+
+.rodape .redes-sociais a:hover {
+  background-color: #9a9e80;
+}
+
+.rodape .logo .imagem {
+  width: 150px;
+}
+
+.rodape .copyright {
+  margin-top: 70px;
+  text-align: center;
+}
+/* RODAPÉ */
+
+/*FEEDBACK*/
+
+.feedbacks {
+  background-color: #8a8d74;
+}
+
+.feedbacks .titulo-feedbacks {
+  color: #ffffff;
+  /* padding: 5% 5%; */
+  text-align: center;
+  font-size: 60px;
+  padding-top: 80px;
+}
+
+.feedbacks .cards-feedbacks {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 100px;
+}
+
+.feedbacks .card-feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #beceab;
+  width: 450px;
+  height: 750px;
+  /* border-style: double; */
+  border-radius: 12px;
+  padding: 25px 40px;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 48px 100px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* gap: 150px; */
+}
+
+.feedbacks .img-cliente {
+  width: 125px;
+  height: 125px;
+  border-radius: 80px;
+  margin-bottom: 20px;
+}
+
+.feedbacks .nome-cliente {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #1a2a25;
+  padding: 20px 0px;
+}
+
+.feedbacks .texto-cliente {
+  text-align: center;
+  color: #1a2a25;
+  /* overflow-y: auto; */
+  padding: 8px;
+  width: 400px;
+  height: 250px;
+}
+
+.img-estrelaa {
+  margin-top: 85px;
+  padding: 0px 100px;
+}
