@@ -128,7 +128,7 @@
     max-width: 336px;
     overflow-y: auto;
     text-align: center;
-    /* padding-right: 18px; */
+
     font-size: 14px;
   }
 
@@ -171,7 +171,7 @@
 
   .contato .conteudo {
     padding: 15px 25px;
-    /* display: block; */
+
     flex-direction: column;
   }
 
@@ -226,6 +226,7 @@
     padding: 6px 2px;
     text-align: center;
     font-size: 20px;
+
   }
 
   .faunafinder
@@ -235,6 +236,7 @@
     text-align: justify;
     display: flex;
     font-size: 28px;
+   
   }
 
   .faunafinder
@@ -322,7 +324,7 @@
 
   .contato .conteudo {
     padding: 15px 25px;
-    /* display: block; */
+   
     flex-direction: column;
   }
 
